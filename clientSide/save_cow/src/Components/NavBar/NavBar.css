@@ -1,0 +1,62 @@
+.nav-bar{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color: #1c49c2;
+}
+.profile-image{
+    height: 35px;
+    width: 35px;
+}
+.nav-bar > div{
+    color: white;
+}
+.GORAKSHA{
+    font-size: 20px;
+    margin: 13px 50px 10px 200px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Home{
+    font-size: 20px;
+    margin: 13px 50px 10px 450px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Carecow{
+    font-size: 20px;
+    margin: 13px 50px 10px 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Maladies{
+    font-size: 20px;
+    margin: 13px 50px 10px 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Vets{
+    font-size: 20px;
+    margin: 13px 50px 10px 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Signup{
+    font-size: 20px;
+    margin: 13px 50px 10px 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile{
+    font-size: 20px;
+    margin: 7px 50px 10px 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
