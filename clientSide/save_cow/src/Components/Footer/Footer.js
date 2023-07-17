@@ -16,9 +16,9 @@ function Footer(){
                <p>Happy Tails Pet well vet animal hospital and surgical centreGuntur</p> 
                   <p>4.9</p>  
                    <p> (215) · Veterinarian</p>
-                    <p>Guntur, Andhra Pradesh · 078931 78428</p>
+                    <p>chittor, Andhra Pradesh · 078931 78428</p>
                    <p>Closed ⋅ Opens 5:30 pm Wed</p> 
-                   <p>"It is a nice veterinary hospital in Guntur."</p> 
+                   <p>"It is a nice veterinary hospital in chittor."</p> 
                 </div>
                 <div className="footer-contact">
                     <h3 className="links">links</h3>
@@ -28,9 +28,10 @@ function Footer(){
                     <p>effects</p>
                 </div>
                 <div>
-                    <h3>News Letter</h3>
+                    <h3 className="News-Letter">News Letter</h3>
                     <img src='/resources/messages.png' className="message"/>
-                    <input type="text" />
+                    <input type="text" className="input-tag"/>
+                    <hr/>
                 </div>
             </div>
         </div>
