@@ -1,38 +1,75 @@
 import React from "react";
 import './Footer.css';
+import { FooterContent, FooterPart, ImagesContent, Savecows, SocialMediaImages } from "./CostFooter";
 function Footer(){
     return(
         <div>
             <div className="footer-container">
-                <div>
-                <h1 className="savecow">savecows</h1>
-                <p className="footer-wrapper">watch vedios and read information on website <br></br>
-                    and please learn about how to care cow<br></br>
-                     please save cow
-                </p>
-                </div>
-                <div className="footer-social">
-                    <h3 className="hospital">hospitals</h3>
-               <p>Happy Tails Pet well vet animal hospital and surgical centreGuntur</p> 
-                  <p>4.9</p>  
-                   <p> (215) · Veterinarian</p>
-                    <p>chittor, Andhra Pradesh · 078931 78428</p>
-                   <p>Closed ⋅ Opens 5:30 pm Wed</p> 
-                   <p>"It is a nice veterinary hospital in chittor."</p> 
-                </div>
-                <div className="footer-contact">
-                    <h3 className="links">links</h3>
-                    <p>home</p>
-                    <p>careCow</p>
-                    <p>doctordetails</p>
-                    <p>effects</p>
-                </div>
-                <div>
-                    <h3 className="News-Letter">News Letter</h3>
-                    <img src='/resources/messages.png' className="message"/>
-                    <input type="text" className="input-tag"/>
-                    <hr/>
-                </div>
+                <div className="flext">
+                    {
+                        Savecows.map((items,i) => (
+                            <div>
+                                <h1 key={i} className="savecow">{items.text}</h1>
+                                <p key={i} className="footer-wrapper">{items.subText}</p>
+                            </div>
+                        ))
+                    },
+                    {
+                        FooterPart.map((item,i)=>(
+                            <div className="footer-social">
+                                <h3 key={i} className="hospital">{item.mainText}</h3>
+                                {
+                                    item.para.map((item,i)=>(
+                                        <div className="hospital_paragraph">
+                                            <p key={i}>{item}</p>
+                                        </div>
+                                    ))
+                                }
+                            </div>
+                        ))
+                    },
+                    {
+                        FooterContent.map((item,i)=>(
+                            <div className="footer-contact">
+                                 <h3 key={i} className="links">{item.Links}</h3>
+                                {
+                                    item.content.map((item,i)=>(
+                                        <div>
+                                            <p key={i} className="paragraph">{item}</p>
+                                        </div>
+                                    ))
+                                }
+                            </div>
+                        ))
+                    },
+                    {
+                        ImagesContent.map((items,i)=>(
+                            <div>
+                                <h3 key={i} className="News-Letter">{items.text}</h3>
+                                <img src={items.image} className="message"/>
+                                <input text={items.input}/>
+                                <hr/>
+
+                            </div>
+                        ))
+
+                    },
+                    {
+                        SocialMediaImages.map((item,i)=>(
+                            <div className="social-media-images">
+                                <img src={item} key={i} />
+                            </div>
+                        ))
+                    }
+                    
+               
+                    {/* <div className="social-media-images">
+                        <img src='/resources/facebook.png'alt="no image" className="facebook"/>
+                        <img src='/resources/WhatsApp.webp'alt="no image" className="whatsapp"/>
+                        <img src='/resources/phone.png'alt="no image" className="whatsapp"/> */} 
+                        {/* <img src='/resources/phone.png' alt="no image" children="phone"/> */}
+                    {/* </div> */} 
+                </div> 
             </div>
         </div>
     )

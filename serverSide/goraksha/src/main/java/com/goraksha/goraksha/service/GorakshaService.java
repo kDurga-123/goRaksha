@@ -1,4 +1,7 @@
 package com.goraksha.goraksha.service;
 
-public interface gorakshaService {
+import com.goraksha.goraksha.model.Effects;
+
+public interface GorakshaService {
+    Effects create(Effects effects);
 }

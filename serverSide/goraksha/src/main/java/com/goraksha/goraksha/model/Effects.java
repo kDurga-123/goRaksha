@@ -3,7 +3,7 @@ package com.goraksha.goraksha.model;
 import jakarta.persistence.*;
 
 @Entity
-public class effects {
+public class Effects {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int disease_id;

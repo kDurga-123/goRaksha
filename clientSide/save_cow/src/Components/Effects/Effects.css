@@ -1,0 +1,104 @@
+.disease-page-container{
+    border-radius: 30px;
+    width: 440px;
+    margin-left: 60px;
+    margin-top: 30px;
+    transform: translateY(-230px);
+    height: 650px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+ .disease-page-container:hover{
+    background-color: rgb(149, 141, 141);
+    color:white;
+    visibility: visible;
+    display: block;
+    
+ }
+.image-section{
+    height: 300px;
+    width: 440px;
+    border-radius: 30px 30px 0px 0px;
+}
+.box{
+    display: flex;
+}
+.image-gallery{
+    width: 100%;
+    height: 500px;
+    /* border-radius: 10px 10px 10px 10px; */
+}
+.related-links{
+    height: 70px;
+    width: 50%;
+    font-size: 30px;
+    transform: translateY(-280px);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    margin-left: 450px;
+}
+.article-title{
+   display: flex;
+   /* border: 1px solid blue; */
+   flex-wrap: wrap;
+   margin-left: 150px;
+   margin-right: 150px;
+}
+.symptoms{
+    margin-left: 10px;
+    color: #91a6e1;
+}
+.disease_name{
+    text-align: center;
+    color:rgb(13, 13, 80);
+}
+.medicine{
+    margin-left: 10px;
+    color: #91a6e1;
+}
+.medicine_name{
+    margin-left: 70px;
+}
+.symptoms_names{
+    margin-left: 60px;
+}
+.viewmore{
+    margin-left: 110px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: rgb(139, 241, 241);
+    color: black;
+    border: none;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 10px;
+    display: none;
+    /* visibility: hidden; */
+}
+.viewmore:hover{
+    
+    background-color: rgb(73, 65, 65);
+    display: block;
+}
+ /* .qoutes{
+    border: 1px solid red; 
+    /* width: 700px;  */
+    /* margin-left: 1060px;
+    transform: translateY(-360px); 
+    font-size: 50px;
+    font-family: serif;
+    font-style: italic;  */
+ /* }  */
+ .qoutes{
+    margin-left: 600px;
+    /* margin-top: -200px; */
+    width: 700px;
+    /* border: 2px solid red; */
+    transform: translateY(-400px);
+    margin-left: 1000px;
+    color: black;
+    font-family: serif;
+    font-style: italic;
+    font-size: 50px;
+
+ }
