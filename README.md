@@ -1,3 +1,5 @@
+<h1>GORAKSHA</h1>
+
 ### Technologies Involved
 
 - HTML 
@@ -27,4 +29,11 @@
 - [x] serching will happen in backend
 
 
- 
+
+![image](https://github.com/kDurga-123/goRaksha/assets/119414747/3b9af8f5-e471-4433-b75e-a4bf34d744ca)
+### GORAKSHA
+
+<b style="color:red;">
+
+#### From Home Customer can experience a virtual platform to purchase daily groceries and enjoy great experience without any complications from our website.
+
