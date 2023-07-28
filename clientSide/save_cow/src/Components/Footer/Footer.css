@@ -1,0 +1,42 @@
+.footer-container
+{
+    height: 400px;
+    width: 100%;
+    background-color: navy;
+    border-radius: 150px 0px 0px 0px;
+    display: flex;
+}
+.savecow{
+    margin : 50px 0px 0px 200px;
+    color: white;
+}
+.footer-wrapper
+{
+    color: white;
+    margin: 50px 0px 0px 150px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.footer-social > p{
+    color: white;
+    margin: 0px 0px 0px 50px;
+    font-size: 20px;
+}
+.hospital{
+    color: white;
+    margin : 50px 0px 0px 50px;
+}
+.footer-contact > p{
+    color: white;
+    margin : 0px 0px 0px 50px;
+
+}
+.links{
+    color: white;
+    margin: 50px 0px 0px 50px;
+}
+.message{
+    height: 30px;
+    width: 30px;
+   
+}
