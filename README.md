@@ -43,10 +43,6 @@ To help cow owners and farmers in villages in understanding common cow diseases,
 <li>My goal is to provide awareness to farmers on how to properly care for cows.</li>
 </ul>
 
-<h3>this is my userStories</h3>
-<ul>
-  <li></li>
-</ul>
 
 
 
